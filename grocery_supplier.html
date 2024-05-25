@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Supplier</title>
+
+    <!-- Bootstrap 5 link -->
+    <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--CSS link  -->
+    <link rel="stylesheet" href="./assets/CSS/style.css" type="text/css">
+
+    <!-- Favourite icon links -->
+    <link rel="stylesheet" href="./assets/images/MIM-Logo-2 (2).svg">
+
+    <!-- Fontawesome 5 link -->
+    <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.js">
+    <!-- Fontawesome 6 link -->
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.4.0-web/js/all.min.js">
+
+    <!-- Font Family links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <div class="container-fluid m-0">
+        <!-- row start -->
+        <div class="row bg-light p-1">
+            <div class="col-1"></div>
+            <!-- Logo image -->
+            <div class="col-3">
+                <img src="./assets/images/MIM-Logo-2 (1).svg" alt="logo not found" id="logimg">
+            </div>
+            <!-- Nav section -->
+            <div class="col-7 p-1" id="nav-right">
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Roles
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="./impactor.html">Impactor</a></li>
+                                        <li><a class="dropdown-item" href="./ngo.html">NGO</a></li>
+                                        <li><a class="dropdown-item" href="./grocery_supplier.html">Grocery Supplier</a></li>
+                                        <li><a class="dropdown-item" href="./Educational-supplier.html">Education Supplier</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Resources
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="./poverty-in-pakistan.html">#EndPoverinPakistan</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="./impacTech.html" role="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                Impac Tech
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="./PPHF.html">PPHF</a></li>
+                                                <li><a class="dropdown-item" href="./active-by-akhuwat.html">Active-by-Akhuwat</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="./Reports & insights.html">Reports & Insights</a></li>
+                                        <li><a class="dropdown-item" href="./careers.html">Careers</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="./news&blog.html">News & Blogs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="./about.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="./contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- nav-end -->
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <!-- row end -->
+    </div>
+
+
+    <!-- Header with image -->
+    <div id="groceryHeader">
+        <div class="container-fluid row">
+            <div></div>
+            <div class="col-12 d-flex" style="margin-top: 150px;">
+                <p class=" fw-bolder fs-1 text-white  pt-5" style="margin-left: 60px;">
+                    We Turn the Money You Make Into a Smile on <br>Someone’s Face</p>
+            </div>
+
+        </div>
+        <div class="container row ">
+            <div class="col-1"></div>
+            <div class="col-3">
+                <span class="fw-bolder fs-3 text-white mt-4">Download App</span>
+            </div>
+            <div class="col-8"></div>
+
+        </div>
+
+        <div class=" container row mt-2">
+            <div class="col-1"></div>
+            <div class="col-3 d-flex">
+                <a href="https://apps.apple.com/pk/app/my-impact-meter/id1645519100">
+                    <img src="./assets/images/Apple-Store-1.png" alt="Image not found" style="height: 30px;">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.impact.meter">
+                    <img src="./assets/images/Google-Play-1-1.png" alt="Image not found"
+                        style="height: 30px; margin-left: 20px;">
+                </a>
+            </div>
+            <div class="col-3"></div>
+
+        </div>
+
+        <div class=" container row mt-2">
+            <div class="col-1"></div>
+            <div class="col-3 d-flex">
+                <img src="./assets/images/Impactor-QR-App-Store- (1).png" alt="Image not found" style="height: 100px;">
+
+                <img src="./assets/images/Impactor-QR-Google-Play- (1).png" alt="Image not found"
+                    style="height: 100px; margin-left: 20px;">
+
+            </div>
+            <div class="col-3"></div>
+
+        </div>
+    </div>
+
+    <!-- Header with image end -->
+
+    <!-- Income Increment Section Start -->
+
+    <div class="mt-4 text-center">
+        <span class="fw-bolder text-center text-danger fs-1">Do You Want to Increase Your Income?</span>
+    </div>
+
+    <div class="mt-4 text-center">
+        <span class="fw-bolder text-center text-danger fs-2">کیا آپ اپنی آمدنی میں اضافہ کرنا چاہتے ہیں؟
+        </span>
+    </div>
+
+    <div class="mt-4 container">
+        <div class="row ">
+            <div class="col-2"></div>
+            <div class="col-8 text-center">
+                <span class=" text-center fs-5">If you are a grocery store owner, this is the perfect opportunity for
+                    you! By joining My Impact Meter, you can boost your daily sales and increase your income while
+                    playing an important role in the global fight against poverty. Don't miss out on this chance to make
+                    a positive impact on your community and the world!
+                </span>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <div class="mt-4 text-center">
+        <span class=" text-center fs-5">Register Today!</span>
+    </div>
+    <div class="mt-4 container">
+        <div class="row ">
+            <div class="col-2"></div>
+            <div class="col-8 text-center">
+                <span class=" text-center fs-5">
+                    گر آپ کریانہ کی دکان کے مالک ہیں، تو آپ کے لئے ایک بہترین موقع ہے! کہ مائی ایمپیکٹ میٹر کے ساتھ مل
+                    کر غربت کے خلاف جدوجہد کرنے کے ساتھ ساتھ اپنا کاروبار بھی بڑھائیں۔ اپنے لوگوں کی مدد کرتے ہوئے دنیا
+                    کو بہتر بنانے کے اس موقع کو ضائع مت کریں۔
+                </span>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <div class="mt-4 text-center">
+        <span class=" text-center fs-5">اپنے آپ کو ابھی رجسٹر کریں
+        </span>
+    </div>
+    <div class="mt-5 container m-0">
+        <div class="row">
+
+            <div class="col-10 text-center">
+                <span class=" text-center fs-5" style="margin-left: 15%;">
+                    <img src="./assets/images/Grocery_supplier_images/Grocery-Supplier-Illustration-111-1536x1085.jpg"
+                        alt="" style="width: 120%;">
+                </span>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <!-- End of Income Increment Section -->
+
+    <!-- Start of Why become a grocery supplier  section-->
+    <div class="mt-4 text-center">
+        <span class="fw-bolder text-center text-danger fs-1">Why Become a Grocery Supplier</span>
+    </div>
+
+    <div class="mt-4 text-center">
+        <span class="fw-bolder text-center text-danger fs-2">گروسری سپلائر کیوں بنیں؟
+        </span>
+    </div>
+    <!-- Card_section -->
+    <div class="container row mt-5 d-flex">
+        <div class="col-2"></div>
+
+        <!-- Card-1 -->
+        <div class="col-5">
+            <div>
+                <i class='fas fa-money-check-alt text-danger fs-2'></i>
+            </div>
+            <div>
+                <p class="ngo-h fw-bold fs-4 mt-4">Increase Daily Sales</p>
+            </div>
+            <div class="ngo-h fw-bold fs-4 text-end">
+                <p>اپنی آمدن بڑھا سکتے ہیں</p>
+            </div>
+            <div>
+                <p align="justify">By registering on the My Impact Meter platform, you can tap into a new market of
+                    potential customers who have been gifted vouchers to purchase groceries, thus increasing your daily
+                    revenue</p>
+            </div>
+            <div>
+                <p align="justify" class=" text-end" style="font-size: 18px;">
+                    مائی ایمپیکٹ میٹر پلیٹ فارم پر رجسٹر کر کے آپ ان ممکنہ گاہکوں کے ذریعے اپنی آمدن بڑھا سکتے ہیں،جن کو
+                    راشن تحفہ کیا گیا ہے، اس طرح آپکی یومیہ آمدنی میں اضافہ ہوتا ہے
+                </p>
+            </div>
+        </div>
+
+        <!-- Card-2 -->
+        <div class="col-5">
+            <div>
+                <i class='fas fa-user-tie text-danger fs-2'></i>
+            </div>
+            <div>
+                <p class="ngo-h fw-bold fs-4 mt-4">Positive Social Impact</p>
+            </div>
+            <div class="ngo-h fw-bold fs-4 text-end">
+                <p>سماجی بھلائی</p>
+            </div>
+            <div>
+                <p align="justify">Once you join our network of service providers - you start providing an essential
+                    service to people in need, helping to make a positive impact in the community and society</p>
+            </div>
+            <div>
+                <p align="justify" class=" text-end" style="font-size: 18px;">
+                    مائی ایمپیکٹ میٹر پلیٹ فارم پر رجسٹر کر کے آپ ان ممکنہ
+                    جیسے ہی آپ اپنی دکان ہمارے پلیٹ فارم پر رجسٹر کرتے ہیں تو فوراً آپ لوگوں کو ضروری اشیاء فراہم کر کے
+                    اپنے معاشرے میں بھلائی پھیلانے کی شروعات کر سکتے ہیں
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container row mt-5 d-flex">
+        <div class="col-2"></div>
+
+        <!-- Card-3 -->
+        <div class="col-5">
+            <div>
+
+                <i class="fa-solid fa-mobile fs-2 text-danger"></i>
+            </div>
+            <div>
+                <p class="ngo-h fw-bold fs-4 mt-4">Efficient Redemption Process</p>
+            </div>
+            <div class="ngo-h fw-bold fs-4 text-end">
+                <p>سروس کے حصول کا مؤثر طریقہ کار</p>
+            </div>
+            <div>
+                <p align="justify">With a unique tracking ID, beneficiaries can easily redeem their grocery vouchers at
+                    your outlet, which ensures that the vouchers are used for their intended purpose </p>
+            </div>
+            <div>
+                <p align="justify" class=" text-end" style="font-size: 18px;">منفرد ٹریکنگ آئی ڈی کا نظام صاف شفاف
+                    طریقے سے راشن کا حصول یقینی بناتا ہے
+                </p>
+            </div>
+        </div>
+
+
+        <!-- Card-4 -->
+        <div class="col-5">
+            <div>
+
+                <i class="fa-solid fa-handshake fs-2 text-danger"></i>
+            </div>
+            <div>
+                <p class="ngo-h fw-bold fs-4 mt-4">Cost-Effective Advertising</p>
+            </div>
+            <div class="ngo-h fw-bold fs-4 text-end">
+                <p>کاروبار کی مفت مشہوری</p>
+            </div>
+            <div>
+                <p align="justify">By becoming a registered service provider on My Impact Meter, you will benefit from
+                    free exposure to a wider audience</p>
+            </div>
+            <div>
+                <p align="justify" class=" text-end" style="font-size: 18px;">آپ مائی ایمپیکٹ میٹر پر اپنی دکان کو رجسٹر
+                    کر کے اپنے کاروبار کی مفت مشہوری سے فائدہ اٹھا سکتے ہیں
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of why we become a grocery supplier -->
+
+
+
+    <!-- Explainer video Sectio Start-->
+    <div class="text-center">
+        <span class="fw-bolder text-danger fs-1">Explainer Video</span>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6 text-center ngo-h fs-2 fw-bolder mt-4">In English</div>
+            <div class="col-6 text-center ngo-h fs-2 fw-bolder mt-4">In Urdu</div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row d-flex">
+            <div class="col-6">
+                <iframe width="518" height="291" src="https://www.youtube.com/embed/zP5iyrWPLzQ"
+                    title="My Impact Meter | Grocery Supplier | Explainer | English" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-6">
+                <iframe width="518" height="291" src="https://www.youtube.com/embed/o2Z53eaZsOM"
+                    title="My Impact Meter | Grocery Supplier | Explainer | Urdu" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Explainer video Section End -->
+
+    <!-- Demo Video Section Start -->
+    <div class=" text-center mt-5">
+        <span class="fw-bolder text-danger fs-1">Demo Video</span>
+    </div>
+
+    <div class="text-center mt-5">
+        <iframe width="740" height="416" src="https://www.youtube.com/embed/rFtFVINYCGY"
+            title="Grocery Supplier | My Impact Meter | Demo | Urdu" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+
+    <!-- Demo Video Section End -->
+
+    <!-- Grocery Supplier Features -->
+
+    <!-- Shop Registration -->
+    <div class="container text-center mt-5">
+        <p class="ngo-h fw-bolder" style="font-size: 50px;">Grocery Supplier Features</p>
+    </div>
+    <div class="container text-center">
+        <p class="text-danger fw-bold fs-1">
+            Register Your Shop and Create a Profile
+        </p>
+    </div>
+    <div class="container text-center">
+        <p class="text-danger fw-bold fs-1">
+            اپنی دکان کو رجسٹر کریں اور پروفائل بنائیں
+        </p>
+    </div>
+    <div class="container-fluid row d-flex">
+        <div class="col-7 text-center" style="margin-left: 60px;">
+            <img src="./assets/images/Grocery_supplier_images/Grocery-Supplier-Mockups-2048x717.jpg" alt=""
+                width="115%">
+        </div>
+        <div class="col-1"></div>
+        <div class="col-3">
+            <p class="mt-5 fw-bold " align="justify">
+
+                Download app ...... Follow the onscreen instructions to easily register your shop on our platform and
+                start earning extra income
+            </p>
+            <p class="fw-bold text-end" align="justify">
+
+                موبائل ایپ ڈاؤن لوڈ کریں۔۔۔۔۔ہمارے پلیٹ فارم پر اپنی دکان کو آسانی سے رجسٹر کرنے اور اضافی آمدنی حاصل
+                کرنے کے لئے اسکرین پر دی گئی ہدایات پر عمل کریں
+            </p>
+        </div>
+    </div>
+
+    <!-- Bank Deatails -->
+    <div class="container text-center mt-5">
+        <p class="text-danger fw-bold fs-1">
+            Add Your Bank Details
+        </p>
+    </div>
+    <div class="container text-center">
+        <p class="text-danger fw-bold fs-1">
+            اپنے بینک کی تفصیلات شامل کریں
+        </p>
+    </div>
+    <div class="container row mt-5">
+        <div class="col-1"></div>
+        <div class="col-4">
+            <p class="fw-bold" align="justify" style="margin-top: 150px;">
+                Once registered, you can add your preferred bank details to receive payments securely
+            </p>
+            <p class="text-end fw-bold" align="justify">
+                ایک بار رجسٹر ہونے کے بعد، آپ محفوظ طریقے سے ادائیگیاں حاصل کرنے کے لئے منتخب کردہ بینک، جیز کیش یا ایزی
+                پیسہ کی تفصیلات شامل کر سکتے ہیں
+            </p>
+        </div>
+        <div class="col-6">
+            <img src="./assets/images/Grocery_supplier_images/grocery-supplier-bank-detail.jpg" alt="" width="160%">
+        </div>
+    </div>
+
+    <!-- Manage Your Shop -->
+    <div class="container text-center mt-5">
+        <p class="text-danger fw-bold fs-1">
+            Manage Your Shop
+        </p>
+    </div>
+    <div class="container text-center">
+        <p class="text-danger fw-bold fs-1">دکان کی تفصیلات مکمل کریں
+        </p>
+    </div>
+    <div class="container-fluid row d-flex">
+        <div class="col-7 text-center" style="margin-left: 60px;">
+            <img src="./assets/images/Grocery_supplier_images/Edit-Grocery-Store-info-2048x769.jpg" alt="" width="115%">
+        </div>
+        <div class="col-1"></div>
+        <div class="col-3">
+            <p class="mt-5 fw-bold " align="justify">
+
+                You can manage your shop by adding or updating extra information like your store name and contact number
+                etc.. </p>
+            <p class="fw-bold text-end" align="justify">
+
+                آپ اضافی معلومات جیسے اپنے سٹور کا نام، رابطہ نمبر اور دیگر معلومات شامل کر کے اپ ڈیٹ کر سکتے ہیں
+
+            </p>
+        </div>
+
+        <!-- Enter TId -->
+        <div class="container text-center mt-5">
+            <p class="text-danger fw-bold fs-1">
+                Enter TID and Provide Your Service
+            </p>
+        </div>
+        <div class="container text-center">
+            <p class="text-danger fw-bold fs-1">
+                ٹریکنگ آئی ڈی کے ذریعے سروس فراہم کریں </p>
+        </div>
+        <div class="container row ">
+            <div class="col-1"></div>
+            <div class="col-6">
+                <p class="fw-bold" align="justify" style="margin-top: 100px;">When an Impactee wants to redeem their
+                    voucher at your store, you can simply enter the TID from your application and all the details will
+                    be displayed after which they can purchase from your sho
+                </p>
+                <p class="text-end fw-bold" align="justify">
+                    آپ اپنی موبائل ایپ میں مستحق فرد کو موصول ہوئے ٹریکنگ آئی ڈی کو درج کر کے تحفہ کی مکمل تفصیل دیکھ
+                    سکتے ہیں اور رقم کے مطابق ضروری اشیاء فراہم کر سکتے ہیں
+
+                </p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/images/Grocery_supplier_images/Grocery-Supplier-TID.jpg" alt="" width="120%">
+            </div>
+        </div>
+
+        <!-- View History -->
+        <div class="container text-center mt-5">
+            <p class="text-danger fw-bold fs-1">
+                View History
+            </p>
+        </div>
+        <div class="container text-center">
+            <p class="text-danger fw-bold fs-1">ہسٹری دیکھیں
+            </p>
+        </div>
+        <div class="container-fluid d-flex">
+            <div class="row">
+                <div class="col-5 text-center">
+                    <img src="./assets/images/Grocery_supplier_images/grocery-supplier-bill.png" alt="" width="80%">
+                </div>
+                <div class="col-6" style="margin-top: 100px;">
+                    <p class="mt-5 fw-bold " align="justify">
+
+                        You can view the entire history of redeemed vouchers under the History section. Any pictures or
+                        records kept for bills will also be shown enabling you to easily track and view previous records
+                    </p>
+                    <p class="fw-bold text-end" align="justify">
+
+
+                        آپ ہسٹری سیکشن کے ذریعے تمام دیئے گئے تحائف کی تفصیلات بمع بِلوں کی تصاویر دیکھ سکتے ہیں
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- How you can Join -->
+        <div class="container text-center mt-5">
+            <p class="text-danger fw-bold fs-1">
+                HOW You Can Join
+            </p>
+        </div>
+        <div class="container row mt-5">
+            <div class="col-1"></div>
+            <div class="col-11">
+                <img src="./assets/images/Grocery_supplier_images/MicrosoftTeams-image-5-scaled.jpg" alt=""
+                    width="100%">
+            </div>
+        </div>
+        <div class="container row mt-5">
+            <div class="col-1"></div>
+            <div class="col-11">
+                <img src="./assets/images/Grocery_supplier_images/MicrosoftTeams-image-6-scaled.jpg" alt=""
+                    width="100%">
+            </div>
+        </div>
+
+        <!-- MIM Shops -->
+        <div class="container text-center mt-5">
+            <p class="text-danger fw-bold fs-1">
+                MiM Shops are now available in these Cities
+            </p>
+        </div>
+
+        <div class="container row mt-5">
+            <div class="col-1"></div>
+            <div class="col-11 d-flex justify-content-between">
+                <div class="lahore" style="position: relative;">
+                    <img src="./assets/images/Grocery_supplier_images/lahore-city.jpg" alt="" width="95%">
+                    <div class="content text-center">
+                        <h2 style="margin-top: 150px;">Lahore</h2>
+                    </div>
+                </div>
+
+                <div class="islamabad" style="position: relative;">
+                    <img src="./assets/images/Grocery_supplier_images/islamabad-city.jpg" alt="" width="95%">
+                    <div class="content text-center">
+                        <h2 style="margin-top: 150px;">Islamabad</h2>
+                    </div>
+                </div>
+                <div class="sialkot" style="position: relative;">
+                    <img src="./assets/images/Grocery_supplier_images/Sialkot-city-1.jpg" alt="" width="95%">
+                    <div class="content text-center">
+                        <h2 style="margin-top: 150px;">Sialkot</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container row mt-3">
+            <div class="col-1"></div>
+            <div class="col-11 d-flex justify-content-between">
+                <div class="rawalpindi" style="position: relative;">
+                    <img src="./assets/images/Grocery_supplier_images/Rawalpindi-city.jpg" alt="" width="95%">
+                    <div class="content text-center">
+                        <h2 style="margin-top: 150px;">Rawalpindi</h2>
+                    </div>
+                </div>
+
+                <div class="faisalabad" style="position: relative;">
+                    <img src="./assets/images/Grocery_supplier_images/faisalabad-city.jpg" alt="" width="95%">
+                    <div class="content text-center">
+                        <h2 style="margin-top: 150px;">Faislabad</h2>
+                    </div>
+                </div>
+                <div class="peshawer" style="position: relative;">
+                    <img src="./assets/images/Grocery_supplier_images/peshawer-city.jpg" alt="" width="95%">
+                    <div class="content text-center">
+                        <h2 style="margin-top: 150px;">Peshawer</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container row mt-3">
+            <div class="col-1"></div>
+            <div class="col-11 d-flex justify-content-between">
+                <div class="gujranwala" style="position: relative;">
+                    <img src="./assets/images/Grocery_supplier_images/gujerawala-city.jpg" alt="" width="95%">
+                    <div class="content text-center">
+                        <h2 style="margin-top: 150px;">Gujranwala</h2>
+                    </div>
+                </div>
+
+                <div class="daska" style="position: relative;">
+                    <img src="./assets/images/Grocery_supplier_images/daska-city-1.jpg" alt="" width="95%">
+                    <div class="content text-center">
+                        <h2 style="margin-top: 150px;">Daska</h2>
+                    </div>
+                </div>
+                <div class="pano" style="position: relative;">
+                    <img src="./assets/images/Grocery_supplier_images/pono-3.jpg" alt="" width="95%">
+                    <div class="content text-center">
+                        <h2 style="margin-top: 150px;">Pano Aqil</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center mt-5">
+            <button class="text-danger bg-white border border-danger fw-bold p-3 rounded">
+                Search MiM Shops
+            </button>
+        </div>
+        <!-- MIM Shops end -->
+
+
+        <!-- Download our app Section Start -->
+        <div class="container text-center mt-5">
+            <p class="text-danger fw-bold fs-2">
+                Download Our App
+            </p>
+        </div>
+        <div class="container  mt-3 text-center">
+            <img src="./assets/images/Apple-Store-1 (1).png" alt="" width="10%">
+            <img src="./assets/images/Google-Play-1-1 (1).png" alt="" width="10%">
+
+        </div>
+        <div class="container  mt-3 text-center">
+            <img src="./assets/images/Impactor-QR-App-Store- (1).png" alt="" width="10%">
+            <img src="./assets/images/Impactor-QR-Google-Play- (1).png" alt="" width="10%">
+        </div>
+        <!-- Download our app section End -->
+
+        <!-- Footer Section Start -->
+        <div class="footer">
+            <div class="Contact-section text-center">
+                <div>
+                    <h2 class="fw-bold mt-3 text-white">Contact Us</h2>
+                </div>
+
+                <div class="mt-5">
+                    <i class='fas fa-phone' style="color: black; border: none;"></i>
+                    <span class="text-white">0322 6460266</span>
+                </div>
+                <div class="mt-3">
+                    <i class="fa fa-envelope" style="color: black;"></i>
+                    <span class="text-white">info@myimpactmeter.com</span>
+                </div>
+                <div class="mt-3">
+                    <i class='fas fa-map-marker-alt' style="color: black; border: none;"></i>
+                    <span class="text-white">4th Floor, CP 63, Defence Raya Golf Resort Sector M DHA Phase 6, Lahore,
+                        Punjab
+                        54792</span>
+                </div>
+                <div class="mt-5 footer-icons">
+                    <a href=""><i class="fab fa-facebook rounded"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-linkedin rounded"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="Company-section text-center">
+                <div>
+                    <h2 class="fw-bold mt-3 text-white">Company</h2>
+                </div>
+                <div class="mt-5">
+                    <a href="" class="text-decoration-none text-white">EULA</a>
+                </div>
+                <div class="mt-3">
+                    <a href="" class="text-white text-decoration-none">Our Team</a>
+                </div>
+                <div class="mt-3">
+                    <a href="" class="text-white text-decoration-none">Privacy Policy</a>
+                </div>
+                <div class="mt-3">
+                    <a href="" class="text-white text-decoration-none">Terms & Conditions</a>
+                </div>
+            </div>
+            <div class="App-section text-center">
+                <div>
+                    <h2 class="fw-bold mt-3 text-white">Download Our App</h2>
+                </div>
+                <div class="mt-5">
+                    <a href="" class="text-decoration-none">
+                        <img src="./assets/images/Apple-Store-1.png" alt="" style="height: 50px; width: 40%;">
+                    </a>
+                    <a href="" class="text-decoration-none">
+                        <img src="./assets/images/Google-Play-1-1.png" alt=""
+                            style="height: 50px; width: 40%; margin-left:10px;">
+                    </a>
+                </div>
+                <div class="mt-3 d-block">
+                    <img src="./assets/images/Impactor-QR-App-Store-.png" alt=""
+                        style="height: 120px; width: 35%;margin-right: 30px;">
+                    <img src="./assets/images/Impactor-QR-Google-Play-.png" alt="" style="height: 120px; width:35%;">
+                </div>
+                <div class="mt-3">
+                    <a href="" class="text-decoration-none">
+                        <img src="./assets/images/DUNS-2-700x118.png" alt="" style="width: 90%;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Section End -->
+</body>
+</body>
+
+</html>

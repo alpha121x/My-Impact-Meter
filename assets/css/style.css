@@ -1,0 +1,1582 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+/* Nav-bar code start */
+#logimg{
+    height: 50px;
+    padding-top: 5px;
+}
+#nav-right{
+    margin-left: 70px;
+}
+#navbarNavDropdown ul li a{
+    color:  black;
+}
+#navbarNavDropdown ul li a:hover{
+    color: red;
+}
+
+/* Nav-bar code end */
+
+
+/* Header-img start */
+#header{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/jannes-jacobs-FvGo3A9ptM0-unsplash-1-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+/* Header image End */
+
+/* I Am Section Start */
+.impactor-box{
+    box-shadow: 2px 1px 10px 0px rgba(0.017349243164081683, 0.017349243164081683, 0.017349243164081683, 0.14);
+    border-style:solid ;
+    border-color: var(--e-global-color-4f42aec );
+    border: none;
+    padding-left: 30px;
+}
+.ngo-h{
+    color: #345695;   
+}
+.myHeading a{
+    color: #345695;
+}
+.impactor-fl{
+    font-size: 18px;
+}
+.impactor-button{
+    border-radius: 20px;
+    box-shadow: none;
+}
+/* I am Section Start */
+
+/* Our Model Section Start */
+.ourmodel{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.ourmodel1{
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.ourmodel2{
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 37%;
+}
+.ourmodel3{
+    width: 25%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 65%;
+}
+.ourmodel-icon1{
+    font-size: 36px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+.ourmodel1:hover .ourmodel-icon1{
+    background-color: red;
+}
+.ourmodel1:hover .ourmodel-icon1 a i{
+    color: white;
+}
+.ourmodel2:hover .ourmodel-icon1{
+    background-color: red;
+}
+.ourmodel2:hover .ourmodel-icon1 a i{
+    color: white;
+}
+.ourmodel3:hover .ourmodel-icon1{
+    background-color: red;
+}
+.ourmodel3:hover .ourmodel-icon1 a i{
+    color: white;
+}
+.model-content a{
+    font-size: 16px;
+    color: gray;
+}
+.model-content {
+    font-size: 16px;
+    color: gray;
+}
+/* Our Model Section End */
+/* Start of Footer Section */
+.footer{
+    height: 400px;
+    width: 100% !important;
+    background-color: #132d5c;
+    position: relative;
+    margin-top: 80px;
+}
+.Contact-section{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+.Company-section{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left: 37%;
+}
+.App-section{
+    width: 25%;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left: 65%;
+}
+.footer-icons a i{
+    font-size: 30px;
+    border-radius: 65px;
+    color:white;
+    background-color: #6EC1E4;
+    border: 2px solid #6EC1E4;
+    border-radius: 10px;
+    transition: width 2s,height 2s;
+}
+.footer-icons a i:hover{
+    width:40px;
+}
+
+
+/* End of Footer Section */
+/* Home Page End */
+
+/* Grocery Supplier html Start */
+#groceryHeader{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/Grocery_supplier_images/Spice_market-India-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/* MiM Shops Section */
+
+
+.content{
+    height: 100%;
+    width: 95%;
+    position: absolute;
+    overflow: hidden;
+    bottom: -100%;
+    transition: all 0.5s;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0,0.7);
+    transform: translate();
+    display: none;
+}
+.lahore:hover .content{
+    bottom: 0;
+    display: block;
+}
+.islamabad:hover .content{
+    bottom: 0;
+    display: block;
+}
+.sialkot:hover .content{
+    bottom: 0;
+    display: block;
+}
+.rawalpindi:hover .content{
+    bottom: 0;
+    display: block;
+}
+.faisalabad:hover .content{
+    bottom: 0;
+    display: block;
+}
+.peshawer:hover .content{
+    bottom: 0;
+    display: block;
+}
+.gujranwala:hover .content{
+    bottom: 0;
+    display: block;
+}
+.daska:hover .content{
+    bottom: 0;
+    display: block;
+}
+.pano:hover .content{
+    bottom: 0;
+    display: block;
+}
+/* Grocery Supplier End */
+
+/* Educational Supplier Start */
+#eduheader{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/Educational-supplier-images/yannis-h-uaPaEM7MiQQ-unsplash-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.edu-btn{
+    height: 120px;
+    width: 40%;
+    margin: auto;
+    margin-top: 3%;
+}
+.edu-btn1{
+    margin-right: 10px;
+    border-radius: 20px;
+    color: #d83456;
+    background-color: white;
+}
+.edu-btn1:hover{
+    background:#d83456;
+    color: white;
+}
+.edu-btn2{
+    margin-left: 10px;
+    border-radius: 20px;
+    color: #d83456;
+    background-color: white;
+}
+.edu-btn2:hover{
+    background:#d83456;
+    color: white;
+}
+.expand-reach{
+ height: 400px;
+ width: 100%;
+ margin-left: 100px;
+}
+.increase-income{
+    height: 400px;
+    width: 100%;
+    margin-left: 20px;
+}
+.redemption{
+    height: 400px;
+    width: 100%;
+    margin-left: 30px;
+}
+.expand-icon{
+    height: 50px;
+    width: 15%; 
+    border: 2px solid #d83456 ;
+    border-radius: 50%;
+    color: #d83456 ;
+}
+.expand-icon:hover{
+ background-color:#d83456;
+ color: white;
+}
+/* Educational Supplier End */
+/* Career Page Start */
+.fd-input{
+    height: 80px;
+    width: 100%;
+    border: 1px solid grey;
+}
+/* Career Page End */
+
+/* #EndPovertyinPakistan */
+.poverty-header{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/MiM-Web-SLIDE-Banner-Green-poverty-v3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* About html */
+/* About us css */
+.bg{
+    width: 100%;
+    height: 500px;
+    background: url(../images/Impact-Point.jpg);
+    background-color: rgba(0,0,0,.2);
+    background-color: #010101;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-data{
+    color: #F2E9EB;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    margin: 0% 0% 0% 0%;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.about-heading {
+    color: #d83456;
+    line-height: 1;
+    font-size: 39px;
+    font-weight: 600;
+}
+.about-content > p {
+    color: #54595f;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+}
+.home-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+    
+}
+.home-bg > img {
+    height: 379px;
+    width: 40%;
+    margin-left: 200px;
+}
+.home-content-main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-content-main-heading > h2 {
+    color: #d83456;
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.home-content-para {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.home-content-para > p {
+    color: #54595f;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.home-content-para > p > strong {
+    color: #345695;
+}
+
+.wrapperrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    height: 500px;
+    gap: 20px;
+    /* position: absolute; */
+    margin-left: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    
+}
+.card-body {
+    height: 90px;
+    position: relative;
+    margin-top: -40px;
+    width: 90%;
+    border-radius: 12px;
+    background: #54595f;
+    background-color: #ffffff;
+    box-shadow: -1.21px 6.894px 15px 0px rgba(0,0,0,0.07);
+}
+.card-body-text {
+    color: #54595f;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0;
+    margin: 10px;
+}
+.card-body-text:hover {
+    display: block;
+    transition: 0.2s all ease;
+    opacity: 1;
+}
+
+.card-body:hover {
+    height: 200px;
+    width: 90%;
+    display: block;
+    transition: 0.4s all ease;
+    opacity: 1;
+}
+.card-body > h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #d83456;
+    margin-top: 15px;
+}
+ #card1 {
+    width: 350px;
+    height: 350px;
+    background: #F2E9EB;
+ }
+ #card1 > img {
+    width: 350px;
+    height: 350px;
+ }
+ #card2 {
+    width: 350px;
+    height: 350px;
+    background: #F2E9EB;
+ }
+ #card2 > img {
+    width: 350px;
+    height: 350px;
+ }
+ #card3 {
+    width: 350px;
+    height: 350px;
+    background: #F2E9EB;
+ }
+ #card3 > img {
+    width: 350px;
+    height: 350px;
+ }
+ .faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
+.faq > h2 {
+    color: #d83456;
+    position: sticky;
+    margin-top: 50px;
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.faq-card {
+        color: #345695;
+        border-style: solid;
+        border-color: #d83456;
+}
+button > span {
+    color: #345695;
+    font-weight: 900;
+}
+.m-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ }
+.m-team > h2 {
+    color: #d83456;
+    position: sticky;
+    margin-top: 50px;
+    font-size: 39px;
+    font-weight: 600;
+}
+.profile {
+   display: flex;
+   place-items: center;
+   column-gap: 20px;
+   row-gap: 20px;
+}
+
+.profile-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    padding: 40px 20px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    position: relative;
+}
+
+.profile-header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    margin-top: 28px;
+}
+.profile-header > img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50% 50% 50% 50%;
+}
+.profile-body {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.profile-title {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #d83456;
+}
+.profile-designation {
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: -10px;
+    text-emphasis-style: bold;
+    color: #d83456;
+}
+.profile-content {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #54595f;
+}
+.t-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;   
+}
+.t-team > h2 {
+    color: #d83456;
+    position: sticky;
+    margin-top: 50px;
+    font-size: 39px;
+    font-weight: bolder;
+}
+.t-team-details {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bolder;
+    width: 884px;
+    height: 52px;
+    margin-left: 220px;
+}
+.t-team-details > p {
+    color: #54595f;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+}
+.profile2 {
+   display: flex;
+   place-items: center;
+   column-gap: 20px;
+   row-gap: 20px;
+}
+.profile2 > .profile-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.1);
+    padding: 40px 20px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    position: relative;
+}
+.profile2 > .profile-title {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #d83456;
+}
+.profile2 > .profile-content {
+    font-size: 17px;
+    color: #54595f;
+}
+.profile-card:hover {
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.3);
+}
+.profile2 > .profile-card:hover {
+    box-shadow: 0 28px 40px 0 rgba(0,0,0,.3);
+}
+
+/* About css end */
+
+
+ /* hero section start */
+ .hero{
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+    background-image: url(./assets/images/chayene-rafaela-nGwkIZFelko-unsplash_11zon.jpg);
+    background-size: cover;
+    background-position-x: right;
+    position: absolute;
+}
+#h1focus{
+    color: white;
+    margin: 230px 0px 0px 90px;
+    font-size: 40px;    
+}
+#h1down{
+    color: white;
+    font-size: 22px;
+    margin: 20px 0px 0px 125px;
+    font-weight: bolder;
+}
+#imgapplestore{
+    width: 100px;
+    margin: 30px 0px 0px 100px;
+}
+#imggoogleplay{
+    width: 100px;
+    margin: 30px 0px 0px 15px;
+}
+#qrimgapple{
+    width: 100px;
+    margin: 20px 0px 0px 85px;
+}
+#qrimggoogle{
+    width: 100px;
+    margin: 20px 0px 0px 20px;
+}
+/* hero section end */
+
+/* Unlock new funding and increase your NGO's impact with us! start */
+#h1unlock1{
+    color: #d83456;
+    position: absolute;
+    margin: 640px 0px 0px 200px;
+    font-weight: bolder;
+}
+#h1unlock2{
+    color: #d83456;
+    position: absolute;
+    margin: 680px 0px 0px 480px;
+    font-weight: bolder;
+}
+#paraunlock{
+    position: absolute;
+    color: #d83456;
+    margin: 760px 0px 0px 150px;
+    word-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#btnngo{
+    position: absolute;
+    color: #d83456;
+    background-color: white;
+    margin: 840px 0px 0px 580px;
+    border-radius: 7px;
+    width: 180px;
+    height: 40px;
+    font-size: 13px;
+    border-color: #d83456;
+    box-shadow: 10px black;
+    
+}
+#btnngo:hover{
+    color: white;
+    background-color: #d83456;
+}
+/* Unlock new funding and increase your NGO's impact with us! end */
+/*microsoft teamimage start */
+#imgmicrosoft{
+    position: absolute;
+    margin: 900px 0px 0px 100px;
+    width: 1150px;
+}
+#h1explainer{
+    position: absolute;
+    margin: 1450px 0px 0px 200px ;
+    color: #d83456;
+    font-weight: bold;
+}
+#h1demo{
+    position: absolute;
+    margin: 1450px 0px 0px 300px ;
+    color: #d83456;
+    font-weight: bold;
+}
+#video1{
+    width: 550px;
+    position: absolute;
+    margin: 1550px 0px 0px 90px;
+    height: 300px;
+}
+#video2{
+    width: 550px;
+    position: absolute;
+    margin: 1550px 0px 0px 150px;
+    height: 300px;
+}
+/* microsoft teamimage end */
+
+/* Sign up and Register Your NGO start */
+#h1register{
+    color: #d83456;
+    position: absolute;
+    margin: 1900px 0px 0px 350px;
+    font-weight: bolder;
+}
+#imgnfp{
+    position: absolute;
+    margin: 2000px 0px 0px 0px;
+    width: 750px;
+    height: 350px;
+}
+#pararegister{
+    position: absolute;
+    color: #d83456;
+    font-weight: bolder;
+    margin: 2150px 0px 0px 100px;
+    font-size: 16px;
+}
+
+/* Sign up and Register Your NGO end */
+/* Get Your NGO Approved start */
+#imgapproved{
+    position: absolute;
+    margin: 2450px 0px 0px 400px;
+    width: 800px;
+    height: 430px;
+}
+#pararapproved{
+    position: absolute;
+    color: #d83456;
+    margin: 2600px 0px 0px 40px;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+#h1approved{
+    position: absolute;
+    color: #d83456;
+    font-weight:bolder ;
+    margin: 2380px 0px 0px 440px;
+}
+/* Get Your NGO Approved end */
+/* Complete Setup start */
+#h1complete{
+    position: relative;
+    color: #d83456; 
+    margin: 2900px 0px 0px 500px;
+    font-weight: bolder;
+}
+#imgcomplete{
+    width: 800px;
+    height: 430px;
+    margin: 30px 0px 0px 0px ;
+}
+#paracomplete{
+    color: #d83456;
+    font-size: 17px;
+    margin: 200px 40px 0px 20px;
+    font-weight: bold;
+}
+/* Complete Setup end */
+
+/* Create Causes/ Campaigns start */
+#h1creat{
+    color: #d83456;
+    margin: 30px 0px 0px 400px;
+    font-weight: bolder ;
+}
+#imgcreat{
+    width: 700px;
+    height: 300px;
+    margin: 0px 40px 0px 0px;
+}
+#paracreat{
+    color: #d83456;
+    margin: 90px 0px 0px 100px ;
+    font-weight: bolder;
+}
+/* Create Causes/ Campaigns end */
+
+/* Add Bank Account Details start */
+#h1bank{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 30px 0px 0px 400px;
+}
+#imgbank{
+    width: 800px;
+    height: 430px;
+    margin: 20px 30px 0px 40px ;
+}
+#parabank{
+    color: #d83456;
+    margin: 200px 0px 0px 90px;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+/* Add Bank Account Details end */
+
+/* Create Aid Packages start */
+#h1packeg{
+    color: #d83456;
+    margin: 40px 0px 0px 450px;
+    font-weight: bolder;
+}
+#imgpackeg{
+    width: 730px;
+    height: 400px;
+    margin: 20px 80px 0px 0px;
+}
+#parapackeg{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 150px 0px 0px 20px;
+}
+/* Create Aid Packages end*/
+/* ACT Now to Contribute towards Flood Relief start */
+#h1contribute{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 30px 0px 0px 250px;
+    font-weight: bolder;
+}
+#videocontribute{
+    width: 550px;
+    height: 300px;
+    margin: 80px 0px 0px 30px;
+}
+#paracontribute{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 170px 0px 0px 40px;
+    font-size: 17px;
+}
+
+/* ACT Now to Contribute towards Flood Relief end */
+
+/*  */
+#h1download{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 60px 0px 0px 500px;
+}
+#imgapple{
+    width: 100px;
+    margin-left: 550px;
+    margin-top: 20px;
+    
+}
+#imggoogle{
+    width: 100px;
+    margin-top: 20px;
+    
+
+}
+#imgappleqr{
+    width: 135px;
+    margin: 10px 0px 0px 520px;
+}
+#imgqrgoogle{
+    width: 135px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+/*  */
+
+/* Newss and blog start */
+
+/* Blogs section home page */
+.home > h3 {
+    color: #484f5e;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    line-height: 1.1;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    width: 80%;
+}
+.home h3 > a{
+    color: #364596;
+    font-size: 24px;
+    text-decoration: none;  
+}
+.blog-data {
+    font-size: 14px;
+}
+.blog-data > p {
+    font-size: 14px;
+    font-weight: bold;
+}
+p > span {
+   color: #d83456;
+}
+.blog-img{
+    width: 1280px;
+    height: 192px;
+    display: flex;
+}
+.blog-img > img {
+    width: 280px;
+    height: 187px;
+}
+.entry-summary {
+    position: sticky;
+    width: 600px;
+    height: 187px;
+    margin-left: 20px;
+}
+.entry-summary > p {
+    font-size: 14px;
+    color: #54595f;
+    font-weight: bold;
+}
+.entry-summary > button {
+    color: #d83456;
+    border-radius: 8px;
+    border: solid #d83456;
+    padding: 5px;
+    background: #fff;
+}
+.entry-summary > button:hover {
+    color: white;
+    background: #d83456;
+}
+
+ /* news and blog end */
+
+
+
+ /* hero section start */
+ .hero{
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+    background-image: url(./assets/images/chayene-rafaela-nGwkIZFelko-unsplash_11zon.jpg);
+    background-size: cover;
+    background-position-x: right;
+    position: absolute;
+}
+#h1focus{
+    color: white;
+    margin: 230px 0px 0px 90px;
+    font-size: 40px;    
+}
+#h1down{
+    color: white;
+    font-size: 22px;
+    margin: 20px 0px 0px 125px;
+    font-weight: bolder;
+}
+#imgapplestore{
+    width: 100px;
+    margin: 30px 0px 0px 100px;
+}
+#imggoogleplay{
+    width: 100px;
+    margin: 30px 0px 0px 15px;
+}
+#qrimgapple{
+    width: 100px;
+    margin: 20px 0px 0px 85px;
+}
+#qrimggoogle{
+    width: 100px;
+    margin: 20px 0px 0px 20px;
+}
+/* hero section end */
+
+/* Unlock new funding and increase your NGO's impact with us! start */
+#h1unlock1{
+    color: #d83456;
+    position: absolute;
+    margin: 640px 0px 0px 200px;
+    font-weight: bolder;
+}
+#h1unlock2{
+    color: #d83456;
+    position: absolute;
+    margin: 680px 0px 0px 480px;
+    font-weight: bolder;
+}
+#paraunlock{
+    position: absolute;
+    color: #54595f;
+    margin: 760px 0px 0px 150px;
+    word-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#btnngo{
+    position: absolute;
+    color: #d83456;
+    background-color: white;
+    margin: 840px 0px 0px 580px;
+    border-radius: 7px;
+    width: 180px;
+    height: 40px;
+    font-size: 13px;
+    border-color: #d83456;
+    box-shadow: 10px black;
+    
+}
+#btnngo:hover{
+    color: white;
+    background-color: #d83456;
+}
+/* Unlock new funding and increase your NGO's impact with us! end */
+/*microsoft teamimage start */
+#imgmicrosoft{
+    position: absolute;
+    margin: 900px 0px 0px 100px;
+    width: 1150px;
+}
+#h1explainer{
+    position: absolute;
+    margin: 1450px 0px 0px 200px ;
+    color: #d83456;
+    font-weight: bold;
+}
+#h1demo{
+    position: absolute;
+    margin: 1450px 0px 0px 300px ;
+    color: #d83456;
+    font-weight: bold;
+}
+#video1{
+    width: 550px;
+    position: absolute;
+    margin: 1550px 0px 0px 90px;
+    height: 300px;
+}
+#video2{
+    width: 550px;
+    position: absolute;
+    margin: 1550px 0px 0px 150px;
+    height: 300px;
+}
+/* microsoft teamimage end */
+
+/* Sign up and Register Your NGO start */
+#h1register{
+    color: #d83456;
+    position: absolute;
+    margin: 1900px 0px 0px 350px;
+    font-weight: bolder;
+}
+#imgnfp{
+    position: absolute;
+    margin: 2000px 0px 0px 0px;
+    width: 750px;
+    height: 350px;
+}
+#pararegister{
+    position: absolute;
+    color: #54595f;
+    font-weight: bolder;
+    margin: 2150px 0px 0px 100px;
+    font-size: 16px;
+}
+
+/* Sign up and Register Your NGO end */
+/* Get Your NGO Approved start */
+#imgapproved{
+    position: absolute;
+    margin: 2450px 0px 0px 400px;
+    width: 800px;
+    height: 430px;
+}
+#pararapproved{
+    position: absolute;
+    color: #54595f;
+    margin: 2600px 0px 0px 40px;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+#h1approved{
+    position: absolute;
+    color: #d83456;
+    font-weight:bolder ;
+    margin: 2380px 0px 0px 440px;
+}
+/* Get Your NGO Approved end */
+/* Complete Setup start */
+#h1complete{
+    position: relative;
+    color: #d83456; 
+    margin: 2900px 0px 0px 500px;
+    font-weight: bolder;
+}
+#imgcomplete{
+    width: 800px;
+    height: 430px;
+    margin: 30px 0px 0px 0px ;
+}
+#paracomplete{
+    color: #54595f;
+    font-size: 17px;
+    margin: 200px 40px 0px 20px;
+    font-weight: bold;
+}
+/* Complete Setup end */
+
+/* Create Causes/ Campaigns start */
+#h1creat{
+    color: #d83456;
+    margin: 30px 0px 0px 400px;
+    font-weight: bolder ;
+}
+#imgcreat{
+    width: 700px;
+    height: 300px;
+    margin: 0px 40px 0px 0px;
+}
+#paracreat{
+    color: #54595f;
+    margin: 90px 0px 0px 100px ;
+    font-weight: bolder;
+}
+/* Create Causes/ Campaigns end */
+
+/* Add Bank Account Details start */
+#h1bank{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 30px 0px 0px 400px;
+}
+#imgbank{
+    width: 800px;
+    height: 430px;
+    margin: 20px 30px 0px 40px ;
+}
+#parabank{
+    color: #54595f;
+    margin: 200px 0px 0px 90px;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+/* Add Bank Account Details end */
+
+/* Create Aid Packages start */
+#h1packeg{
+    color: #d83456;
+    margin: 40px 0px 0px 450px;
+    font-weight: bolder;
+}
+#imgpackeg{
+    width: 730px;
+    height: 400px;
+    margin: 20px 80px 0px 0px;
+}
+#parapackeg{
+    color: #54595f;
+    font-weight: bolder;
+    margin: 150px 0px 0px 20px;
+}
+/* Create Aid Packages end*/
+/* ACT Now to Contribute towards Flood Relief start */
+#h1contribute{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 30px 0px 0px 250px;
+    font-weight: bolder;
+}
+#videocontribute{
+    width: 550px;
+    height: 300px;
+    margin: 80px 0px 0px 30px;
+}
+#paracontribute{
+    color: #54595f;
+    font-weight: bolder;
+    margin: 150px 0px 0px 40px;
+    font-size: 17px;
+}
+
+/* ACT Now to Contribute towards Flood Relief end */
+
+/*  */
+#h1download{
+    color: #d83456;
+    font-weight: bolder;
+    margin: 60px 0px 0px 500px;
+}
+#imgapple{
+    width: 100px;
+    margin-left: 550px;
+    margin-top: 20px;
+    
+}
+#imggoogle{
+    width: 100px;
+    margin-top: 20px;
+    
+
+}
+#imgappleqr{
+    width: 135px;
+    margin: 10px 0px 0px 520px;
+}
+#imgqrgoogle{
+    width: 135px;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+/*  */
+
+/* Reports and Insights start  */
+.heading > h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #d83456;
+    font-weight: 400;
+}
+.blog-img1{
+    width: 1280px;
+    height: 192px;
+    display: flex;
+}
+.blog-img1 > img {
+    width: 280px;
+    height: 265px;
+}
+/* Reports and Insights end  */
+
+/* PPHF start  */
+#header1{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/PPHF-banner-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+.header-text1 {
+    width: 80%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text1 > p {
+    position: absolute;
+    top: 28%;
+    color: #F2E9EB;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+}
+#apptitle1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#apptitle1 > p{
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    left: 18%;
+    font-size: 20px;
+    width: 300px;
+    height: 70px;
+}
+.codes {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 500px;
+    right: 56%;
+}
+.codes > #scanner11 {
+    position: absolute;
+    margin-right: 30px;
+}
+.codes > #scanner21 {
+    position: absolute;
+    left: 42%;
+}
+.heading > h2 {
+    color: #d83456;
+    font-family: "Poppins";
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 55px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.it-skills {
+    max-width: 1140px;
+    height: 400px;
+    position: relative;
+}
+.it-skills > .summary {
+    width: 48%;
+    height: 172px;
+    position: absolute;
+    top: 20%;
+}
+.summary > p {
+    color: #54595f;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0px 0px 15px 0px;
+}
+.summary > .enroll {
+    font-family: "Roboto";
+    margin-top: 20px;
+    font-weight: 900;
+    fill: #d83456;
+    color: #d83456;
+    background-color: #fafafa;
+    border-style: solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #d83456;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 4px 4px 12px -2px #B6717F;
+}
+.summary > .enroll:hover {
+    background: #d83456;
+    color: #fafafa;
+}
+.container-img {
+    width: 570px;
+    height: 387px;
+    position: absolute;
+    right: 0;
+    top: 10;
+}
+.container-img > img {
+    height: auto;
+    width: 550px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.it-training {
+    width: 520px;
+    height: 156px;
+    position: absolute;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.it-training > h3 {
+    margin: 4% 0% 0% 0%;
+    padding: 0px 0px 0px 0px;
+    color: #364596;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    position: absolute;
+}
+.it-training > p {
+    position: absolute;
+    top: 66%;
+}
+.it-training1 {
+    width: 520px;
+    height: 156px;
+    position: absolute;
+    left: 50%;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.it-training1 > h3 {
+    margin: 4% 0% 0% 0%;
+    padding: 0px 0px 0px 0px;
+    color: #364596;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    position: absolute;
+}
+.it-training1 > p {
+    position: absolute;
+    top: 66%;
+}
+.laptop-icon {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: 0;
+}
+.laptop-icon > .fa, .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 1.6rem;
+    border-radius: 60%;
+    border: solid #d83456;
+    padding-left: 10px;
+    padding-top: 13px;
+    color: #d83456;
+}
+.laptop-icon:hover {
+    background: #d83456;
+    color: #fafafa;
+}
+.services-img {
+    width: 350px;
+    height: 270px;
+    margin-left: 37%;
+}
+.services-img > img {
+    width: 325px;
+    height: 256px;   
+}
+.enrol-btn {
+    width: 50%;
+    height: 360px;
+    text-align: center;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.enrol-btn > h2 {
+    color: #d83456;
+    font-family: "Poppins";
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 55px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+  .enroll1 {
+    font-family: "Roboto";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    fill: #d83456;
+    color: #d83456;
+    background-color: #fafafa;
+    border-style: solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #d83456;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 4px 4px 12px -2px #B6717F;
+}
+.enroll1:hover {
+    background: #d83456;
+    color: #fafafa;
+}
+.img-con {
+    width: 100%;
+    height: 150px;
+}
+.img-con > .img1 {
+    width: 15%;
+    position: absolute;
+    left: 10%;
+}
+.img-con > .img2 {
+    width: 25%;
+    position: absolute;
+    right: 10%;
+}
+
+/* PPHF end  */
+
+/* .active-by-akhuat */
+#header12{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),  url(../images/luca-bravo-XJXWbfSo2f0-unsplash_11zon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.it-traininga {
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.it-traininga > h3 {
+    margin: 4% 0% 0% 0%;
+    padding: 0px 0px 0px 0px;
+    color: #364596;
+    font-family: "Poppins";
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 25px;
+    position: absolute;
+}
+.it-traininga > p {
+    position: absolute;
+    top: 66%;
+}
+.it-training1a {
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: 50%;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.it-training1a > h3 {
+    margin: 4% 0% 0% 0%;
+    padding: 0px 0px 0px 0px;
+    color: #364596;
+    font-family: "Poppins";
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 25px;
+    position: absolute;
+}
+.it-training1a > p {
+    position: absolute;
+    top: 66%;
+}
+.img-con1 {
+    width: 100%;
+    height: 150px;
+}
+.img-con1> .img1 {
+    width: 20%;
+    position: absolute;
+    left: 8%;
+}
+.img-con1 > .img2 {
+    width: 25%;
+    position: absolute;
+    right: 10%;
+}
+/* .active-by-akhuat end */
+
+
+
